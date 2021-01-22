@@ -25,4 +25,4 @@ case "$(uname -s)" in
         ;;
 esac
 
-${EMACS} --name="smagit: $REPO" -q --load $HERE/init.el
+${EMACS} -nw --name="smagit: $REPO" -q --load $HERE/init.el
